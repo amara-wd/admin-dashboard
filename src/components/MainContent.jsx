@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import { faClinicMedical, faCloud, faDonate, faEdit, faTrash, faFolder } from '@fortawesome/free-solid-svg-icons';
-import CircularProgressBar from './CircularProgressBar';
+import CircularProgressBar from '../components/CircularprogressBar';
 
 function MainContent() {
   const [clinics, setClinics] = useState([
